@@ -26,18 +26,21 @@ export function NavBar() {
         <div className="relative flex items-center justify-between">
           <Link href={siteConfig.baseLinks.home} aria-label="Home">
             <span className="sr-only">Solar Tech Logo</span>
-            <SolarLogo className="w-22" />
+            <SolarLogo className="w-28" />
           </Link>
-          <nav className="hidden sm:block md:absolute md:top-1/2 md:left-1/2 md:-translate-x-1/2 md:-translate-y-1/2 md:transform">
-            <div className="flex items-center gap-10 font-medium">
+          <nav className="hidden sm:block flex-grow px-35">
+            <div className="flex items-center justify-between w-full font-medium">
               <Link className="px-2 py-1 text-gray-900" href="#solutions">
-                Solutions
+                Riparazioni
               </Link>
               <Link className="px-2 py-1 text-gray-900" href="#farm-management">
-                Farm Management
+                Costruzioni e allestimenti
               </Link>
               <Link className="px-2 py-1 text-gray-900" href="#solar-analytics">
-                Analytics
+                Servizi
+              </Link>
+              <Link className="px-2 py-1 text-gray-900" href="#solar-analytics">
+                Vendita accessori
               </Link>
             </div>
           </nav>
@@ -45,7 +48,7 @@ export function NavBar() {
             variant="secondary"
             className="hidden h-10 font-semibold sm:block"
           >
-            Get a quote
+            Notizie
           </Button>
           <Button
             onClick={() => setOpen(!open)}

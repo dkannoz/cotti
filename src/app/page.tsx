@@ -8,6 +8,7 @@ import { CallToAction } from "@/components/ui/CallToAction"
 import FeatureDivider from "@/components/ui/FeatureDivider"
 import Features from "@/components/ui/Features"
 import { Hero } from "@/components/ui/Hero"
+import ImageCarousel from "@/components/ui/ImageCarousel"
 import { Map } from "@/components/ui/Map/Map"
 import { SolarAnalytics } from "@/components/ui/SolarAnalytics"
 import Testimonial from "@/components/ui/Testimonial"
@@ -36,6 +37,11 @@ export default function Home() {
       {/* Hero section with significant top padding for visual impact */}
       <div className="pt-56">
         <Hero />
+      </div>
+
+      {/* Testimonial section */}
+      <div className="mt-22 px-4 xl:px-0">
+        <ImageCarousel />
       </div>
 
       {/* Features section with large separation from hero */}

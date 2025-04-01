@@ -29,7 +29,7 @@ import GameOfLife from "./HeroBackground"
 export function Hero() {
   return (
     <section aria-label="hero">
-      <FadeContainer className="relative flex flex-col items-center justify-center">
+      <FadeContainer className="relative flex flex-col items-center justify-center mt-[-80px]">
         {/* Announcement banner - Blog link with subtle hover effect */}
         <FadeDiv className="mx-auto">
           <a
@@ -47,7 +47,7 @@ export function Hero() {
               {/* Announcement text with arrow icon */}
               <span className="flex items-center gap-1 truncate">
                 <span className="w-full truncate">
-                  Le ultime novità, servizi e certificazioni
+                  Le ultime novità
                 </span>
                 {/* Arrow icon indicating external link */}
                 <RiArrowRightUpLine className="size-4 shrink-0 text-gray-700" />
