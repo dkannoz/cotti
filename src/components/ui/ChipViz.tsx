@@ -101,7 +101,7 @@ const ChipViz = () => {
               >
                 {/* Logo container - white to gray gradient with the SolarMark logo */}
                 <div className="relative flex h-full w-full items-center justify-center rounded-full bg-linear-to-br from-white to-gray-300 shadow-lg shadow-black/40">
-                  <SolarMark className="w-6" />
+                  <SolarMark className="w-8" />
                 </div>
               </motion.div>
             </div>

@@ -58,9 +58,9 @@ export function Hero() {
 
         {/* Main headline - Large, bold text with animated fade-in by word */}
         <h1 className="mt-8 text-center text-5xl font-semibold tracking-tighter text-gray-900 sm:text-8xl sm:leading-[5.5rem]">
-          <FadeSpan>Attenzione</FadeSpan> <FadeSpan>al</FadeSpan>
+          <FadeSpan>Il tuo</FadeSpan> <FadeSpan>veicolo,</FadeSpan>
           <br />
-          <FadeSpan>tuo</FadeSpan> <FadeSpan>veicolo</FadeSpan>
+          <FadeSpan>la nostra</FadeSpan> <FadeSpan>attenzione</FadeSpan>
         </h1>
 
         {/* Supporting description text - Provides additional context */}
